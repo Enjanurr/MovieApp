@@ -1,50 +1,48 @@
-# Welcome to your Expo app 👋
+🎬 Movie App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A cross-platform mobile application built with React Native and Expo that allows users to browse, search, and view details of movies. The app fetches real-time movie data from The Movie Database (TMDB) API, providing users with ratings, descriptions, and trailers in a clean and interactive interface.
 
-## Get started
+📸 Demo
+![screenshot](demo.png)
 
-1. Install dependencies
 
-   ```bash
-   npm install
-   ```
 
-2. Start the app
+🚀 Features
 
-   ```bash
-   npx expo start
-   ```
+🎯 Browse trending and popular movies
 
-In the output, you'll find options to open the app in a
+🔍 Search for movies by title
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+🎬 View detailed movie information: synopsis, ratings, release date, and trailers
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+💾 Save favorite movies locally
 
-## Get a fresh project
+📱 Responsive UI optimized for mobile devices
 
-When you're ready, run:
+🌐 Real-time data fetching from TMDB API
 
-```bash
-npm run reset-project
-```
+🛠️ Tech Stack
+Frontend:
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+React Native + Expo
 
-## Learn more
+React Navigation for app routing
 
-To learn more about developing your project with Expo, look at the following resources:
+Axios / Fetch for API integration
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Styled Components / Tailwind CSS for UI styling
 
-## Join the community
+Backend / API:
 
-Join our community of developers creating universal apps.
+TMDB API
+ for movie data
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+📌 Future Improvements
+
+Implement authentication for personalized user profiles
+
+Add user reviews and ratings
+
+Offline caching and favorites synchronization
+
+Push notifications for new movie releases
