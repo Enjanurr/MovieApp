@@ -3,7 +3,7 @@
 A cross-platform mobile application built with React Native and Expo that allows users to browse, search, and view details of movies. The app fetches real-time movie data from The Movie Database (TMDB) API, providing users with ratings, descriptions, and trailers in a clean and interactive interface.
 
 📸 Demo
-![screenshot](demo.png)
+![screenshot](demo.jpg)
 
 
 
